@@ -1,0 +1,32 @@
+{
+  "name": "bujupah-server",
+  "version": "1.0.0",
+  "description": "A realtime server made with ParseServer and MongoDB",
+  "main": "index.js",
+  "scripts": {
+    "server": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bujupah/bujupah-server.git"
+  },
+  "keywords": [
+    "parse",
+    "server",
+    "mongodb",
+    "nodejs"
+  ],
+  "author": "Khalil Mejdi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Bujupah/bujupah-server/issues"
+  },
+  "homepage": "https://github.com/Bujupah/bujupah-server#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "parse-dashboard": "^2.1.0",
+    "parse-server": "^4.2.0",
+    "parse-smtp-template": "^2.0.1"
+  }
+}
